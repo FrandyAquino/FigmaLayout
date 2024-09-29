@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import Layout from '@Layout/Layout';
-import TitleSections from '../Typography/TitleSections';
+import TitleSections from '@components/Typography/TitleSections';
+import BrandsImg from '@/assets/sharp.png';
+import BrandsImg2 from '@/assets/panasonic.png';
+import BrandsImg3 from '@/assets/huawei.png';
+import BrandsImg4 from '@/assets/legrand.png';
 
 const brands = [
-    { name: 'SHARP', logo: '/src/assets/sharp.png' },
-    { name: 'Panasonic', logo: '/src/assets/panasonic.png' },
-    { name: 'HUAWEI', logo: '/src/assets/huawei.png' },
-    { name: 'Legrand', logo: '/src/assets/legrand.png' }
+    {
+        name: 'SHARP',
+        logo: BrandsImg
+    },
+    {
+        name: 'Panasonic',
+        logo: BrandsImg2
+    },
+    {
+        name: 'HUAWEI',
+        logo: BrandsImg3
+    },
+    {
+        name: 'Legrand',
+        logo: BrandsImg4
+    }
 ];
 
 function BrandsCarousel() {

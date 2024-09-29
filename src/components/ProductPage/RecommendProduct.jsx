@@ -7,6 +7,10 @@ import { FaRegStar } from 'react-icons/fa';
 import Typography from '@components/Typography/Typography';
 import Button from '@components/Buttons/Button';
 import TitleSections from '@components/Typography/TitleSections';
+import ProductsImg from '@/assets/omnires.png';
+import ProductsImg2 from '@/assets/countertop.png';
+import ProductsImg3 from '@/assets/perforated.png';
+import ProductsImg4 from '@/assets/amberdecor.png';
 
 const products = [
     {
@@ -18,7 +22,7 @@ const products = [
         oldPrice: '$65.00',
         stockStatus: 'In stock',
         deliveryDate: '',
-        image: '/src/assets/omnires.png',
+        image: ProductsImg,
         bw: '45cm',
         bh: '12cm',
         bd: '35cm',
@@ -33,7 +37,7 @@ const products = [
         oldPrice: '$64.00',
         stockStatus: 'In stock',
         deliveryDate: '',
-        image: '/src/assets/countertop.png',
+        image: ProductsImg2,
         bw: '45cm',
         bh: '12cm',
         bd: '35cm',
@@ -48,7 +52,7 @@ const products = [
         oldPrice: '$64.00',
         stockStatus: 'In stock',
         deliveryDate: '',
-        image: '/src/assets/perforated.png',
+        image: ProductsImg3,
         bw: '45cm',
         bh: '12cm',
         bd: '35cm',
@@ -63,7 +67,7 @@ const products = [
         oldPrice: '$64.00',
         stockStatus: 'Exp. delivery on Jun 14, 2022',
         deliveryDate: 'Exp. delivery on Jun 14, 2022',
-        image: '/src/assets/amberdecor.png',
+        image: ProductsImg4,
         bw: '45cm',
         bh: '12cm',
         bd: '35cm',

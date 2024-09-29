@@ -1,26 +1,30 @@
 import React from 'react'
 import Layout from '@Layout/Layout.jsx'
 import TitleSections from '@components/Typography/TitleSections'
+import CategoriesImg from '@/assets/photovoltaics.png'
+import CategoriesImg2 from '@/assets/electronics.png'
+import CategoriesImg3 from '@/assets/lightsources.png'
+import CategoriesImg4 from '@/assets/ventilation.png'
 
 const categories = [
     {
         id: 1,
-        img: '/src/assets/photovoltaics.png',
+        img: CategoriesImg,
         title: 'Photovoltaics',
     },
     {
         id: 2,
-        img: '/src/assets/electronics.png',
+        img: CategoriesImg2,
         title: 'Electronics',
     },
     {
         id: 3,
-        img: '/src/assets/lightsources.png',
+        img: CategoriesImg3,
         title: 'Light Sources',
     },
     {
         id: 4,
-        img: '/src/assets/ventilation.png',
+        img: CategoriesImg4,
         title: 'Ventilation',
     }
 
