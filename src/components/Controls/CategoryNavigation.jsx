@@ -15,13 +15,11 @@ function CategoryNavigation() {
                     <div className='flex py-6 gap-16 flex-row items-center'>
                         <div className='flex items-center gap-1'>
                             <Link to="/CategoryPage"><Typography variant="body-xs-semibold">HOME & GARDEN</Typography></Link>
-                            <IoIosArrowDown />
+
                         </div>
                         <div className='flex items-center gap-1'>
 
                             <Link to="/Test"><Typography variant="body-xs-semibold">MOTORS</Typography></Link>
-
-                            <IoIosArrowDown />
                         </div>
                         <div>
                             <a href="#"><Typography variant="body-xs-semibold">ELECTRONICS</Typography></a>
